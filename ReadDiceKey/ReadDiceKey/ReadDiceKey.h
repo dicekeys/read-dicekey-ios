@@ -2,7 +2,7 @@
 //  ReadDiceKey.h
 //  ReadDiceKey
 //
-//  Created by Nikita Titov on 27.10.2020.
+//  Created by Nikita Titov on 02.11.2020.
 //
 
 #import <Foundation/Foundation.h>
