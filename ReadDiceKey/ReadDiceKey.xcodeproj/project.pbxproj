@@ -74,6 +74,14 @@
 		6F5659A2255156B300B6B3B1 /* DJIMarshal+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5655DA255156B100B6B3B1 /* DJIMarshal+Private.h */; };
 		6F5659A3255156B300B6B3B1 /* DJIObjcWrapperCache+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5655DB255156B100B6B3B1 /* DJIObjcWrapperCache+Private.h */; };
 		6F5659A4255156B300B6B3B1 /* DJIProxyCaches.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F5655DC255156B100B6B3B1 /* DJIProxyCaches.mm */; };
+		6F565C1F2551694B00B6B3B1 /* ImageProcessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C0B2551694B00B6B3B1 /* ImageProcessor.hpp */; };
+		6F565C232551694B00B6B3B1 /* DiceKeys-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C152551694B00B6B3B1 /* DiceKeys-Bridging-Header.h */; };
+		6F565C242551694B00B6B3B1 /* DKImageProcessor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C162551694B00B6B3B1 /* DKImageProcessor+Private.h */; };
+		6F565C252551694B00B6B3B1 /* DKImageProcessor+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F565C172551694B00B6B3B1 /* DKImageProcessor+Private.mm */; };
+		6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C182551694B00B6B3B1 /* DKImageProcessor.h */; };
+		6F565C272551694B00B6B3B1 /* ImageProcessorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F565C1B2551694B00B6B3B1 /* ImageProcessorImpl.cpp */; };
+		6F565C282551694B00B6B3B1 /* ImageProcessorImpl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */; };
+		6F565C292551694B00B6B3B1 /* ImageProcessor.djinni in Resources */ = {isa = PBXBuildFile; fileRef = 6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +167,14 @@
 		6F5655DA255156B100B6B3B1 /* DJIMarshal+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIMarshal+Private.h"; sourceTree = "<group>"; };
 		6F5655DB255156B100B6B3B1 /* DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIObjcWrapperCache+Private.h"; sourceTree = "<group>"; };
 		6F5655DC255156B100B6B3B1 /* DJIProxyCaches.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIProxyCaches.mm; sourceTree = "<group>"; };
+		6F565C0B2551694B00B6B3B1 /* ImageProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessor.hpp; sourceTree = "<group>"; };
+		6F565C152551694B00B6B3B1 /* DiceKeys-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiceKeys-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F565C162551694B00B6B3B1 /* DKImageProcessor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DKImageProcessor+Private.h"; sourceTree = "<group>"; };
+		6F565C172551694B00B6B3B1 /* DKImageProcessor+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "DKImageProcessor+Private.mm"; sourceTree = "<group>"; };
+		6F565C182551694B00B6B3B1 /* DKImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageProcessor.h; sourceTree = "<group>"; };
+		6F565C1B2551694B00B6B3B1 /* ImageProcessorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessorImpl.cpp; sourceTree = "<group>"; };
+		6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessorImpl.hpp; sourceTree = "<group>"; };
+		6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageProcessor.djinni; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,8 +219,11 @@
 			isa = PBXGroup;
 			children = (
 				6F564B752551535200B6B3B1 /* deps */,
-				6F1C40F425505DE000EB8C43 /* ReadDiceKey.h */,
+				6F565C092551694B00B6B3B1 /* generated_src */,
+				6F565C192551694B00B6B3B1 /* handwritten_src */,
+				6F565C1D2551694B00B6B3B1 /* idl */,
 				6F1C40F525505DE000EB8C43 /* Info.plist */,
+				6F1C40F425505DE000EB8C43 /* ReadDiceKey.h */,
 			);
 			path = ReadDiceKey;
 			sourceTree = "<group>";
@@ -383,6 +402,62 @@
 			path = objc;
 			sourceTree = "<group>";
 		};
+		6F565C092551694B00B6B3B1 /* generated_src */ = {
+			isa = PBXGroup;
+			children = (
+				6F565C0A2551694B00B6B3B1 /* cpp */,
+				6F565C142551694B00B6B3B1 /* objc */,
+			);
+			name = generated_src;
+			path = ../../generated_src;
+			sourceTree = "<group>";
+		};
+		6F565C0A2551694B00B6B3B1 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				6F565C0B2551694B00B6B3B1 /* ImageProcessor.hpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		6F565C142551694B00B6B3B1 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				6F565C152551694B00B6B3B1 /* DiceKeys-Bridging-Header.h */,
+				6F565C162551694B00B6B3B1 /* DKImageProcessor+Private.h */,
+				6F565C172551694B00B6B3B1 /* DKImageProcessor+Private.mm */,
+				6F565C182551694B00B6B3B1 /* DKImageProcessor.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		6F565C192551694B00B6B3B1 /* handwritten_src */ = {
+			isa = PBXGroup;
+			children = (
+				6F565C1A2551694B00B6B3B1 /* cpp */,
+			);
+			name = handwritten_src;
+			path = ../../handwritten_src;
+			sourceTree = "<group>";
+		};
+		6F565C1A2551694B00B6B3B1 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				6F565C1B2551694B00B6B3B1 /* ImageProcessorImpl.cpp */,
+				6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		6F565C1D2551694B00B6B3B1 /* idl */ = {
+			isa = PBXGroup;
+			children = (
+				6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */,
+			);
+			name = idl;
+			path = ../../idl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -397,15 +472,19 @@
 				6F564BD32551536F00B6B3B1 /* sample-point.h in Headers */,
 				6F564BBD2551536F00B6B3B1 /* decode-face.h in Headers */,
 				6F564BCD2551536F00B6B3B1 /* draw-rotated-rect.h in Headers */,
+				6F565C1F2551694B00B6B3B1 /* ImageProcessor.hpp in Headers */,
+				6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */,
 				6F564BE12551536F00B6B3B1 /* statistics.h in Headers */,
 				6F5659A2255156B300B6B3B1 /* DJIMarshal+Private.h in Headers */,
 				6F564BD22551536F00B6B3B1 /* rotate.h in Headers */,
+				6F565C242551694B00B6B3B1 /* DKImageProcessor+Private.h in Headers */,
 				6F564BC42551536F00B6B3B1 /* face-read.h in Headers */,
 				6F5659A3255156B300B6B3B1 /* DJIObjcWrapperCache+Private.h in Headers */,
 				6F564BD72551536F00B6B3B1 /* read-dicekey.hpp in Headers */,
 				6F1C410225505DE000EB8C43 /* ReadDiceKey.h in Headers */,
 				6F564BDB2551536F00B6B3B1 /* read-faces.h in Headers */,
 				6F564BF02551536F00B6B3B1 /* dicekey-face-specification.h in Headers */,
+				6F565C282551694B00B6B3B1 /* ImageProcessorImpl.hpp in Headers */,
 				6F564BC92551536F00B6B3B1 /* font.h in Headers */,
 				6F564BCF2551536F00B6B3B1 /* find-rectangles.h in Headers */,
 				6F564BEE2551536F00B6B3B1 /* dicekey.hpp in Headers */,
@@ -426,6 +505,7 @@
 				6F564BC12551536F00B6B3B1 /* inconsolata-700.h in Headers */,
 				6F5659A0255156B300B6B3B1 /* DJIError.h in Headers */,
 				6F564BE22551536F00B6B3B1 /* vfunctional.h in Headers */,
+				6F565C232551694B00B6B3B1 /* DiceKeys-Bridging-Header.h in Headers */,
 				6F564BC22551536F00B6B3B1 /* ocr-font.h in Headers */,
 				6F564BE02551536F00B6B3B1 /* bit-operations.h in Headers */,
 				6F564BF22551536F00B6B3B1 /* face.hpp in Headers */,
@@ -514,6 +594,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F565C292551694B00B6B3B1 /* ImageProcessor.djinni in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +623,9 @@
 				6F564BC52551536F00B6B3B1 /* find-faces.cpp in Sources */,
 				6F564BE72551536F00B6B3B1 /* write-face-characters.cpp in Sources */,
 				6F564BD82551536F00B6B3B1 /* read-face-characters.cpp in Sources */,
+				6F565C252551694B00B6B3B1 /* DKImageProcessor+Private.mm in Sources */,
 				6F5659A4255156B300B6B3B1 /* DJIProxyCaches.mm in Sources */,
+				6F565C272551694B00B6B3B1 /* ImageProcessorImpl.cpp in Sources */,
 				6F564BD42551536F00B6B3B1 /* json.cpp in Sources */,
 				6F564BEB2551536F00B6B3B1 /* dicekey-from-human-readable-form.cpp in Sources */,
 				6F564BCE2551536F00B6B3B1 /* find-rectangles.cpp in Sources */,
