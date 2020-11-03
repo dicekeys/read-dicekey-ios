@@ -216,4 +216,5 @@ fabric.properties
 .ideaHaskellLib
 
 ios/
+deps/ios/
 
