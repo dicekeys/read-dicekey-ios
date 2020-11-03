@@ -39,7 +39,7 @@
 		6F564BD42551536F00B6B3B1 /* json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F564B952551536F00B6B3B1 /* json.cpp */; };
 		6F564BD52551536F00B6B3B1 /* json.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F564B962551536F00B6B3B1 /* json.h */; };
 		6F564BD62551536F00B6B3B1 /* read-dicekey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F564B972551536F00B6B3B1 /* read-dicekey.cpp */; };
-		6F564BD72551536F00B6B3B1 /* read-dicekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F564B982551536F00B6B3B1 /* read-dicekey.hpp */; };
+		6F564BD72551536F00B6B3B1 /* read-dicekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F564B982551536F00B6B3B1 /* read-dicekey.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F564BD82551536F00B6B3B1 /* read-face-characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F564B992551536F00B6B3B1 /* read-face-characters.cpp */; };
 		6F564BD92551536F00B6B3B1 /* read-face-characters.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F564B9A2551536F00B6B3B1 /* read-face-characters.h */; };
 		6F564BDA2551536F00B6B3B1 /* read-faces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F564B9B2551536F00B6B3B1 /* read-faces.cpp */; };
@@ -72,7 +72,7 @@
 		6F565C232551694B00B6B3B1 /* DiceKeys-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C152551694B00B6B3B1 /* DiceKeys-Bridging-Header.h */; };
 		6F565C242551694B00B6B3B1 /* DKImageProcessor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C162551694B00B6B3B1 /* DKImageProcessor+Private.h */; };
 		6F565C252551694B00B6B3B1 /* DKImageProcessor+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F565C172551694B00B6B3B1 /* DKImageProcessor+Private.mm */; };
-		6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C182551694B00B6B3B1 /* DKImageProcessor.h */; };
+		6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C182551694B00B6B3B1 /* DKImageProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F565C272551694B00B6B3B1 /* ImageProcessorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F565C1B2551694B00B6B3B1 /* ImageProcessorImpl.cpp */; };
 		6F565C282551694B00B6B3B1 /* ImageProcessorImpl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */; };
 		6F565C292551694B00B6B3B1 /* ImageProcessor.djinni in Resources */ = {isa = PBXBuildFile; fileRef = 6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */; };
@@ -472,24 +472,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFBA917255191640056234D /* DJIError.h in Headers */,
+				6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */,
+				6F564BD72551536F00B6B3B1 /* read-dicekey.hpp in Headers */,
 				6F564BDF2551536F00B6B3B1 /* undoverline.h in Headers */,
 				6F564BCA2551536F00B6B3B1 /* color.h in Headers */,
 				6F564BD92551536F00B6B3B1 /* read-face-characters.h in Headers */,
 				6F564BEC2551536F00B6B3B1 /* dicekey-from-human-readable-form.hpp in Headers */,
+				6F564BDB2551536F00B6B3B1 /* read-faces.h in Headers */,
 				6F564BD32551536F00B6B3B1 /* sample-point.h in Headers */,
 				6F564BBD2551536F00B6B3B1 /* decode-face.h in Headers */,
 				6FFBA916255191640056234D /* DJICppWrapperCache+Private.h in Headers */,
 				6F564BCD2551536F00B6B3B1 /* draw-rotated-rect.h in Headers */,
 				6F565C1F2551694B00B6B3B1 /* ImageProcessor.hpp in Headers */,
-				6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */,
 				6F564BE12551536F00B6B3B1 /* statistics.h in Headers */,
 				6F564BD22551536F00B6B3B1 /* rotate.h in Headers */,
 				6F565C242551694B00B6B3B1 /* DKImageProcessor+Private.h in Headers */,
 				6FFBA91F255191640056234D /* proxy_cache_interface.hpp in Headers */,
 				6F564BC42551536F00B6B3B1 /* face-read.h in Headers */,
-				6F564BD72551536F00B6B3B1 /* read-dicekey.hpp in Headers */,
 				6F1C410225505DE000EB8C43 /* ReadDiceKey.h in Headers */,
-				6F564BDB2551536F00B6B3B1 /* read-faces.h in Headers */,
 				6F564BF02551536F00B6B3B1 /* dicekey-face-specification.h in Headers */,
 				6F565C282551694B00B6B3B1 /* ImageProcessorImpl.hpp in Headers */,
 				6F564BC92551536F00B6B3B1 /* font.h in Headers */,
