@@ -18,7 +18,61 @@
 		6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C182551694B00B6B3B1 /* DKImageProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F565C272551694B00B6B3B1 /* ImageProcessorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F565C1B2551694B00B6B3B1 /* ImageProcessorImpl.cpp */; };
 		6F565C282551694B00B6B3B1 /* ImageProcessorImpl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */; };
-		6F565C292551694B00B6B3B1 /* ImageProcessor.djinni in Resources */ = {isa = PBXBuildFile; fileRef = 6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */; };
+		6FADE7C22552ABB8006DF99F /* json.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE74D2552ABB8006DF99F /* json.hpp */; };
+		6FADE7C42552ABB8006DF99F /* dicekey-from-human-readable-form.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7502552ABB8006DF99F /* dicekey-from-human-readable-form.cpp */; };
+		6FADE7C52552ABB8006DF99F /* dicekey-from-human-readable-form.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7512552ABB8006DF99F /* dicekey-from-human-readable-form.hpp */; };
+		6FADE7C62552ABB8006DF99F /* dicekey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7522552ABB8006DF99F /* dicekey.cpp */; };
+		6FADE7C72552ABB8006DF99F /* dicekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7532552ABB8006DF99F /* dicekey.hpp */; };
+		6FADE7C82552ABB8006DF99F /* dicekey-face-specification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7552552ABB8006DF99F /* dicekey-face-specification.cpp */; };
+		6FADE7C92552ABB8006DF99F /* dicekey-face-specification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7562552ABB8006DF99F /* dicekey-face-specification.h */; };
+		6FADE7CA2552ABB8006DF99F /* face.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7572552ABB8006DF99F /* face.cpp */; };
+		6FADE7CB2552ABB8006DF99F /* face.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7582552ABB8006DF99F /* face.hpp */; };
+		6FADE7CC2552ABB8006DF99F /* lib-dicekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7592552ABB8006DF99F /* lib-dicekey.hpp */; };
+		6FADE7CD2552ABB8006DF99F /* assemble-dicekey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE75B2552ABB8006DF99F /* assemble-dicekey.cpp */; };
+		6FADE7CE2552ABB8006DF99F /* assemble-dicekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE75C2552ABB8006DF99F /* assemble-dicekey.hpp */; };
+		6FADE7D02552ABB8006DF99F /* decode-die.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE75E2552ABB8006DF99F /* decode-die.cpp */; };
+		6FADE7D12552ABB8006DF99F /* decode-face.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE75F2552ABB8006DF99F /* decode-face.h */; };
+		6FADE7D22552ABB8006DF99F /* inconsolata-700.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7612552ABB8006DF99F /* inconsolata-700.cpp */; };
+		6FADE7D32552ABB8006DF99F /* inconsolata-700.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7622552ABB8006DF99F /* inconsolata-700.h */; };
+		6FADE7D42552ABB8006DF99F /* ocr-font.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7632552ABB8006DF99F /* ocr-font.h */; };
+		6FADE7D52552ABB8006DF99F /* face-read.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7642552ABB8006DF99F /* face-read.cpp */; };
+		6FADE7D62552ABB8006DF99F /* face-read.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7652552ABB8006DF99F /* face-read.h */; };
+		6FADE7D72552ABB8006DF99F /* find-faces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7662552ABB8006DF99F /* find-faces.cpp */; };
+		6FADE7D82552ABB8006DF99F /* find-faces.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7672552ABB8006DF99F /* find-faces.h */; };
+		6FADE7D92552ABB8006DF99F /* find-undoverlines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7682552ABB8006DF99F /* find-undoverlines.cpp */; };
+		6FADE7DA2552ABB8006DF99F /* find-undoverlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7692552ABB8006DF99F /* find-undoverlines.h */; };
+		6FADE7DB2552ABB8006DF99F /* font.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE76A2552ABB8006DF99F /* font.h */; };
+		6FADE7DC2552ABB8006DF99F /* color.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE76C2552ABB8006DF99F /* color.h */; };
+		6FADE7DD2552ABB8006DF99F /* cv.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE76D2552ABB8006DF99F /* cv.h */; };
+		6FADE7DE2552ABB8006DF99F /* draw-rotated-rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE76E2552ABB8006DF99F /* draw-rotated-rect.cpp */; };
+		6FADE7DF2552ABB8006DF99F /* draw-rotated-rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE76F2552ABB8006DF99F /* draw-rotated-rect.h */; };
+		6FADE7E02552ABB8006DF99F /* find-rectangles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7702552ABB8006DF99F /* find-rectangles.cpp */; };
+		6FADE7E12552ABB8006DF99F /* find-rectangles.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7712552ABB8006DF99F /* find-rectangles.h */; };
+		6FADE7E22552ABB8006DF99F /* geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7722552ABB8006DF99F /* geometry.h */; };
+		6FADE7E32552ABB8006DF99F /* rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7732552ABB8006DF99F /* rectangle.h */; };
+		6FADE7E42552ABB8006DF99F /* rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7742552ABB8006DF99F /* rotate.h */; };
+		6FADE7E52552ABB8006DF99F /* sample-point.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7752552ABB8006DF99F /* sample-point.h */; };
+		6FADE7E62552ABB8006DF99F /* json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7762552ABB8006DF99F /* json.cpp */; };
+		6FADE7E72552ABB8006DF99F /* json.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7772552ABB8006DF99F /* json.h */; };
+		6FADE7E82552ABB8006DF99F /* read-dicekey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7782552ABB8006DF99F /* read-dicekey.cpp */; };
+		6FADE7E92552ABB8006DF99F /* read-dicekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7792552ABB8006DF99F /* read-dicekey.hpp */; };
+		6FADE7EA2552ABB8006DF99F /* read-face-characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE77A2552ABB8006DF99F /* read-face-characters.cpp */; };
+		6FADE7EB2552ABB8006DF99F /* read-face-characters.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE77B2552ABB8006DF99F /* read-face-characters.h */; };
+		6FADE7EC2552ABB8006DF99F /* read-faces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE77C2552ABB8006DF99F /* read-faces.cpp */; };
+		6FADE7ED2552ABB8006DF99F /* read-faces.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE77D2552ABB8006DF99F /* read-faces.h */; };
+		6FADE7EE2552ABB8006DF99F /* simple-ocr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE77E2552ABB8006DF99F /* simple-ocr.cpp */; };
+		6FADE7EF2552ABB8006DF99F /* simple-ocr.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE77F2552ABB8006DF99F /* simple-ocr.h */; };
+		6FADE7F02552ABB8006DF99F /* undoverline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7802552ABB8006DF99F /* undoverline.cpp */; };
+		6FADE7F12552ABB8006DF99F /* undoverline.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7812552ABB8006DF99F /* undoverline.h */; };
+		6FADE7F22552ABB8006DF99F /* bit-operations.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7832552ABB8006DF99F /* bit-operations.h */; };
+		6FADE7F32552ABB8006DF99F /* statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7842552ABB8006DF99F /* statistics.h */; };
+		6FADE7F42552ABB8006DF99F /* vfunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7852552ABB8006DF99F /* vfunctional.h */; };
+		6FADE7F52552ABB8006DF99F /* validate-faces-read.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7862552ABB8006DF99F /* validate-faces-read.cpp */; };
+		6FADE7F62552ABB8006DF99F /* validate-faces-read.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7872552ABB8006DF99F /* validate-faces-read.h */; };
+		6FADE7F72552ABB8006DF99F /* visualize-read-results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7882552ABB8006DF99F /* visualize-read-results.cpp */; };
+		6FADE7F82552ABB8006DF99F /* visualize-read-results.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7892552ABB8006DF99F /* visualize-read-results.h */; };
+		6FADE7F92552ABB8006DF99F /* write-face-characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE78A2552ABB8006DF99F /* write-face-characters.cpp */; };
+		6FADE7FA2552ABB8006DF99F /* write-face-characters.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE78B2552ABB8006DF99F /* write-face-characters.h */; };
 		6FFBA916255191640056234D /* DJICppWrapperCache+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFBA17E2551915F0056234D /* DJICppWrapperCache+Private.h */; };
 		6FFBA917255191640056234D /* DJIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFBA17F2551915F0056234D /* DJIError.h */; };
 		6FFBA918255191640056234D /* DJIError.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBA1802551915F0056234D /* DJIError.mm */; };
@@ -55,6 +109,63 @@
 		6F565C1B2551694B00B6B3B1 /* ImageProcessorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessorImpl.cpp; sourceTree = "<group>"; };
 		6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessorImpl.hpp; sourceTree = "<group>"; };
 		6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageProcessor.djinni; sourceTree = "<group>"; };
+		6FADE74D2552ABB8006DF99F /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		6FADE74F2552ABB8006DF99F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		6FADE7502552ABB8006DF99F /* dicekey-from-human-readable-form.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "dicekey-from-human-readable-form.cpp"; sourceTree = "<group>"; };
+		6FADE7512552ABB8006DF99F /* dicekey-from-human-readable-form.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "dicekey-from-human-readable-form.hpp"; sourceTree = "<group>"; };
+		6FADE7522552ABB8006DF99F /* dicekey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dicekey.cpp; sourceTree = "<group>"; };
+		6FADE7532552ABB8006DF99F /* dicekey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dicekey.hpp; sourceTree = "<group>"; };
+		6FADE7552552ABB8006DF99F /* dicekey-face-specification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "dicekey-face-specification.cpp"; sourceTree = "<group>"; };
+		6FADE7562552ABB8006DF99F /* dicekey-face-specification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dicekey-face-specification.h"; sourceTree = "<group>"; };
+		6FADE7572552ABB8006DF99F /* face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = face.cpp; sourceTree = "<group>"; };
+		6FADE7582552ABB8006DF99F /* face.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = face.hpp; sourceTree = "<group>"; };
+		6FADE7592552ABB8006DF99F /* lib-dicekey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "lib-dicekey.hpp"; sourceTree = "<group>"; };
+		6FADE75B2552ABB8006DF99F /* assemble-dicekey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "assemble-dicekey.cpp"; sourceTree = "<group>"; };
+		6FADE75C2552ABB8006DF99F /* assemble-dicekey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "assemble-dicekey.hpp"; sourceTree = "<group>"; };
+		6FADE75D2552ABB8006DF99F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		6FADE75E2552ABB8006DF99F /* decode-die.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "decode-die.cpp"; sourceTree = "<group>"; };
+		6FADE75F2552ABB8006DF99F /* decode-face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "decode-face.h"; sourceTree = "<group>"; };
+		6FADE7612552ABB8006DF99F /* inconsolata-700.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "inconsolata-700.cpp"; sourceTree = "<group>"; };
+		6FADE7622552ABB8006DF99F /* inconsolata-700.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "inconsolata-700.h"; sourceTree = "<group>"; };
+		6FADE7632552ABB8006DF99F /* ocr-font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ocr-font.h"; sourceTree = "<group>"; };
+		6FADE7642552ABB8006DF99F /* face-read.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "face-read.cpp"; sourceTree = "<group>"; };
+		6FADE7652552ABB8006DF99F /* face-read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "face-read.h"; sourceTree = "<group>"; };
+		6FADE7662552ABB8006DF99F /* find-faces.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "find-faces.cpp"; sourceTree = "<group>"; };
+		6FADE7672552ABB8006DF99F /* find-faces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "find-faces.h"; sourceTree = "<group>"; };
+		6FADE7682552ABB8006DF99F /* find-undoverlines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "find-undoverlines.cpp"; sourceTree = "<group>"; };
+		6FADE7692552ABB8006DF99F /* find-undoverlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "find-undoverlines.h"; sourceTree = "<group>"; };
+		6FADE76A2552ABB8006DF99F /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		6FADE76C2552ABB8006DF99F /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		6FADE76D2552ABB8006DF99F /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
+		6FADE76E2552ABB8006DF99F /* draw-rotated-rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "draw-rotated-rect.cpp"; sourceTree = "<group>"; };
+		6FADE76F2552ABB8006DF99F /* draw-rotated-rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "draw-rotated-rect.h"; sourceTree = "<group>"; };
+		6FADE7702552ABB8006DF99F /* find-rectangles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "find-rectangles.cpp"; sourceTree = "<group>"; };
+		6FADE7712552ABB8006DF99F /* find-rectangles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "find-rectangles.h"; sourceTree = "<group>"; };
+		6FADE7722552ABB8006DF99F /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
+		6FADE7732552ABB8006DF99F /* rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = "<group>"; };
+		6FADE7742552ABB8006DF99F /* rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate.h; sourceTree = "<group>"; };
+		6FADE7752552ABB8006DF99F /* sample-point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sample-point.h"; sourceTree = "<group>"; };
+		6FADE7762552ABB8006DF99F /* json.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json.cpp; sourceTree = "<group>"; };
+		6FADE7772552ABB8006DF99F /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		6FADE7782552ABB8006DF99F /* read-dicekey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "read-dicekey.cpp"; sourceTree = "<group>"; };
+		6FADE7792552ABB8006DF99F /* read-dicekey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "read-dicekey.hpp"; sourceTree = "<group>"; };
+		6FADE77A2552ABB8006DF99F /* read-face-characters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "read-face-characters.cpp"; sourceTree = "<group>"; };
+		6FADE77B2552ABB8006DF99F /* read-face-characters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "read-face-characters.h"; sourceTree = "<group>"; };
+		6FADE77C2552ABB8006DF99F /* read-faces.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "read-faces.cpp"; sourceTree = "<group>"; };
+		6FADE77D2552ABB8006DF99F /* read-faces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "read-faces.h"; sourceTree = "<group>"; };
+		6FADE77E2552ABB8006DF99F /* simple-ocr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "simple-ocr.cpp"; sourceTree = "<group>"; };
+		6FADE77F2552ABB8006DF99F /* simple-ocr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simple-ocr.h"; sourceTree = "<group>"; };
+		6FADE7802552ABB8006DF99F /* undoverline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = undoverline.cpp; sourceTree = "<group>"; };
+		6FADE7812552ABB8006DF99F /* undoverline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = undoverline.h; sourceTree = "<group>"; };
+		6FADE7832552ABB8006DF99F /* bit-operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bit-operations.h"; sourceTree = "<group>"; };
+		6FADE7842552ABB8006DF99F /* statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistics.h; sourceTree = "<group>"; };
+		6FADE7852552ABB8006DF99F /* vfunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vfunctional.h; sourceTree = "<group>"; };
+		6FADE7862552ABB8006DF99F /* validate-faces-read.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "validate-faces-read.cpp"; sourceTree = "<group>"; };
+		6FADE7872552ABB8006DF99F /* validate-faces-read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "validate-faces-read.h"; sourceTree = "<group>"; };
+		6FADE7882552ABB8006DF99F /* visualize-read-results.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "visualize-read-results.cpp"; sourceTree = "<group>"; };
+		6FADE7892552ABB8006DF99F /* visualize-read-results.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "visualize-read-results.h"; sourceTree = "<group>"; };
+		6FADE78A2552ABB8006DF99F /* write-face-characters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "write-face-characters.cpp"; sourceTree = "<group>"; };
+		6FADE78B2552ABB8006DF99F /* write-face-characters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "write-face-characters.h"; sourceTree = "<group>"; };
 		6FFBA17E2551915F0056234D /* DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJICppWrapperCache+Private.h"; sourceTree = "<group>"; };
 		6FFBA17F2551915F0056234D /* DJIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIError.h; sourceTree = "<group>"; };
 		6FFBA1802551915F0056234D /* DJIError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIError.mm; sourceTree = "<group>"; };
@@ -128,6 +239,7 @@
 		6F564B752551535200B6B3B1 /* deps */ = {
 			isa = PBXGroup;
 			children = (
+				6FADE7402552ABB8006DF99F /* read-dicekey */,
 				6F564BF82551551500B6B3B1 /* opencv2.framework */,
 				6FFB9B402551915A0056234D /* djinni */,
 			);
@@ -190,6 +302,127 @@
 			path = ../../idl;
 			sourceTree = "<group>";
 		};
+		6FADE7402552ABB8006DF99F /* read-dicekey */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE74C2552ABB8006DF99F /* includes */,
+				6FADE74E2552ABB8006DF99F /* lib-dicekey */,
+				6FADE75A2552ABB8006DF99F /* lib-read-dicekey */,
+			);
+			name = "read-dicekey";
+			path = "../../deps/read-dicekey";
+			sourceTree = "<group>";
+		};
+		6FADE74C2552ABB8006DF99F /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE74D2552ABB8006DF99F /* json.hpp */,
+			);
+			path = includes;
+			sourceTree = "<group>";
+		};
+		6FADE74E2552ABB8006DF99F /* lib-dicekey */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE74F2552ABB8006DF99F /* CMakeLists.txt */,
+				6FADE7502552ABB8006DF99F /* dicekey-from-human-readable-form.cpp */,
+				6FADE7512552ABB8006DF99F /* dicekey-from-human-readable-form.hpp */,
+				6FADE7522552ABB8006DF99F /* dicekey.cpp */,
+				6FADE7532552ABB8006DF99F /* dicekey.hpp */,
+				6FADE7542552ABB8006DF99F /* externally-generated */,
+				6FADE7572552ABB8006DF99F /* face.cpp */,
+				6FADE7582552ABB8006DF99F /* face.hpp */,
+				6FADE7592552ABB8006DF99F /* lib-dicekey.hpp */,
+			);
+			path = "lib-dicekey";
+			sourceTree = "<group>";
+		};
+		6FADE7542552ABB8006DF99F /* externally-generated */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE7552552ABB8006DF99F /* dicekey-face-specification.cpp */,
+				6FADE7562552ABB8006DF99F /* dicekey-face-specification.h */,
+			);
+			path = "externally-generated";
+			sourceTree = "<group>";
+		};
+		6FADE75A2552ABB8006DF99F /* lib-read-dicekey */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE75B2552ABB8006DF99F /* assemble-dicekey.cpp */,
+				6FADE75C2552ABB8006DF99F /* assemble-dicekey.hpp */,
+				6FADE75D2552ABB8006DF99F /* CMakeLists.txt */,
+				6FADE75E2552ABB8006DF99F /* decode-die.cpp */,
+				6FADE75F2552ABB8006DF99F /* decode-face.h */,
+				6FADE7602552ABB8006DF99F /* externally-generated */,
+				6FADE7642552ABB8006DF99F /* face-read.cpp */,
+				6FADE7652552ABB8006DF99F /* face-read.h */,
+				6FADE7662552ABB8006DF99F /* find-faces.cpp */,
+				6FADE7672552ABB8006DF99F /* find-faces.h */,
+				6FADE7682552ABB8006DF99F /* find-undoverlines.cpp */,
+				6FADE7692552ABB8006DF99F /* find-undoverlines.h */,
+				6FADE76A2552ABB8006DF99F /* font.h */,
+				6FADE76B2552ABB8006DF99F /* graphics */,
+				6FADE7762552ABB8006DF99F /* json.cpp */,
+				6FADE7772552ABB8006DF99F /* json.h */,
+				6FADE7782552ABB8006DF99F /* read-dicekey.cpp */,
+				6FADE7792552ABB8006DF99F /* read-dicekey.hpp */,
+				6FADE77A2552ABB8006DF99F /* read-face-characters.cpp */,
+				6FADE77B2552ABB8006DF99F /* read-face-characters.h */,
+				6FADE77C2552ABB8006DF99F /* read-faces.cpp */,
+				6FADE77D2552ABB8006DF99F /* read-faces.h */,
+				6FADE77E2552ABB8006DF99F /* simple-ocr.cpp */,
+				6FADE77F2552ABB8006DF99F /* simple-ocr.h */,
+				6FADE7802552ABB8006DF99F /* undoverline.cpp */,
+				6FADE7812552ABB8006DF99F /* undoverline.h */,
+				6FADE7822552ABB8006DF99F /* utilities */,
+				6FADE7862552ABB8006DF99F /* validate-faces-read.cpp */,
+				6FADE7872552ABB8006DF99F /* validate-faces-read.h */,
+				6FADE7882552ABB8006DF99F /* visualize-read-results.cpp */,
+				6FADE7892552ABB8006DF99F /* visualize-read-results.h */,
+				6FADE78A2552ABB8006DF99F /* write-face-characters.cpp */,
+				6FADE78B2552ABB8006DF99F /* write-face-characters.h */,
+			);
+			path = "lib-read-dicekey";
+			sourceTree = "<group>";
+		};
+		6FADE7602552ABB8006DF99F /* externally-generated */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE7612552ABB8006DF99F /* inconsolata-700.cpp */,
+				6FADE7622552ABB8006DF99F /* inconsolata-700.h */,
+				6FADE7632552ABB8006DF99F /* ocr-font.h */,
+			);
+			path = "externally-generated";
+			sourceTree = "<group>";
+		};
+		6FADE76B2552ABB8006DF99F /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE76C2552ABB8006DF99F /* color.h */,
+				6FADE76D2552ABB8006DF99F /* cv.h */,
+				6FADE76E2552ABB8006DF99F /* draw-rotated-rect.cpp */,
+				6FADE76F2552ABB8006DF99F /* draw-rotated-rect.h */,
+				6FADE7702552ABB8006DF99F /* find-rectangles.cpp */,
+				6FADE7712552ABB8006DF99F /* find-rectangles.h */,
+				6FADE7722552ABB8006DF99F /* geometry.h */,
+				6FADE7732552ABB8006DF99F /* rectangle.h */,
+				6FADE7742552ABB8006DF99F /* rotate.h */,
+				6FADE7752552ABB8006DF99F /* sample-point.h */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		6FADE7822552ABB8006DF99F /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6FADE7832552ABB8006DF99F /* bit-operations.h */,
+				6FADE7842552ABB8006DF99F /* statistics.h */,
+				6FADE7852552ABB8006DF99F /* vfunctional.h */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
 		6FFB9B402551915A0056234D /* djinni */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,16 +464,50 @@
 			files = (
 				6FFBA917255191640056234D /* DJIError.h in Headers */,
 				6F565C262551694B00B6B3B1 /* DKImageProcessor.h in Headers */,
+				6FADE7D82552ABB8006DF99F /* find-faces.h in Headers */,
 				6FFBA916255191640056234D /* DJICppWrapperCache+Private.h in Headers */,
 				6F565C1F2551694B00B6B3B1 /* ImageProcessor.hpp in Headers */,
+				6FADE7FA2552ABB8006DF99F /* write-face-characters.h in Headers */,
 				6F565C242551694B00B6B3B1 /* DKImageProcessor+Private.h in Headers */,
+				6FADE7C52552ABB8006DF99F /* dicekey-from-human-readable-form.hpp in Headers */,
 				6FFBA91F255191640056234D /* proxy_cache_interface.hpp in Headers */,
+				6FADE7CC2552ABB8006DF99F /* lib-dicekey.hpp in Headers */,
+				6FADE7E92552ABB8006DF99F /* read-dicekey.hpp in Headers */,
+				6FADE7D42552ABB8006DF99F /* ocr-font.h in Headers */,
+				6FADE7F22552ABB8006DF99F /* bit-operations.h in Headers */,
+				6FADE7ED2552ABB8006DF99F /* read-faces.h in Headers */,
+				6FADE7CE2552ABB8006DF99F /* assemble-dicekey.hpp in Headers */,
+				6FADE7EB2552ABB8006DF99F /* read-face-characters.h in Headers */,
+				6FADE7DD2552ABB8006DF99F /* cv.h in Headers */,
+				6FADE7E42552ABB8006DF99F /* rotate.h in Headers */,
+				6FADE7F62552ABB8006DF99F /* validate-faces-read.h in Headers */,
+				6FADE7F82552ABB8006DF99F /* visualize-read-results.h in Headers */,
+				6FADE7EF2552ABB8006DF99F /* simple-ocr.h in Headers */,
 				6F1C410225505DE000EB8C43 /* ReadDiceKey.h in Headers */,
 				6F565C282551694B00B6B3B1 /* ImageProcessorImpl.hpp in Headers */,
+				6FADE7DB2552ABB8006DF99F /* font.h in Headers */,
+				6FADE7D12552ABB8006DF99F /* decode-face.h in Headers */,
 				6F565C232551694B00B6B3B1 /* DiceKeys-Bridging-Header.h in Headers */,
+				6FADE7C92552ABB8006DF99F /* dicekey-face-specification.h in Headers */,
 				6FFBA91E255191640056234D /* proxy_cache_impl.hpp in Headers */,
 				6FFBA91A255191640056234D /* DJIObjcWrapperCache+Private.h in Headers */,
+				6FADE7DF2552ABB8006DF99F /* draw-rotated-rect.h in Headers */,
+				6FADE7E22552ABB8006DF99F /* geometry.h in Headers */,
+				6FADE7E32552ABB8006DF99F /* rectangle.h in Headers */,
+				6FADE7E12552ABB8006DF99F /* find-rectangles.h in Headers */,
+				6FADE7F42552ABB8006DF99F /* vfunctional.h in Headers */,
+				6FADE7CB2552ABB8006DF99F /* face.hpp in Headers */,
+				6FADE7F12552ABB8006DF99F /* undoverline.h in Headers */,
 				6FFBA919255191640056234D /* DJIMarshal+Private.h in Headers */,
+				6FADE7E52552ABB8006DF99F /* sample-point.h in Headers */,
+				6FADE7DC2552ABB8006DF99F /* color.h in Headers */,
+				6FADE7C22552ABB8006DF99F /* json.hpp in Headers */,
+				6FADE7E72552ABB8006DF99F /* json.h in Headers */,
+				6FADE7D62552ABB8006DF99F /* face-read.h in Headers */,
+				6FADE7D32552ABB8006DF99F /* inconsolata-700.h in Headers */,
+				6FADE7F32552ABB8006DF99F /* statistics.h in Headers */,
+				6FADE7DA2552ABB8006DF99F /* find-undoverlines.h in Headers */,
+				6FADE7C72552ABB8006DF99F /* dicekey.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +591,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F565C292551694B00B6B3B1 /* ImageProcessor.djinni in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,10 +608,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FADE7DE2552ABB8006DF99F /* draw-rotated-rect.cpp in Sources */,
+				6FADE7D92552ABB8006DF99F /* find-undoverlines.cpp in Sources */,
+				6FADE7EC2552ABB8006DF99F /* read-faces.cpp in Sources */,
+				6FADE7D72552ABB8006DF99F /* find-faces.cpp in Sources */,
+				6FADE7E62552ABB8006DF99F /* json.cpp in Sources */,
+				6FADE7F02552ABB8006DF99F /* undoverline.cpp in Sources */,
+				6FADE7F92552ABB8006DF99F /* write-face-characters.cpp in Sources */,
+				6FADE7CA2552ABB8006DF99F /* face.cpp in Sources */,
 				6FFBA91B255191640056234D /* DJIProxyCaches.mm in Sources */,
+				6FADE7C82552ABB8006DF99F /* dicekey-face-specification.cpp in Sources */,
+				6FADE7C42552ABB8006DF99F /* dicekey-from-human-readable-form.cpp in Sources */,
+				6FADE7E82552ABB8006DF99F /* read-dicekey.cpp in Sources */,
+				6FADE7CD2552ABB8006DF99F /* assemble-dicekey.cpp in Sources */,
+				6FADE7C62552ABB8006DF99F /* dicekey.cpp in Sources */,
 				6F565C252551694B00B6B3B1 /* DKImageProcessor+Private.mm in Sources */,
+				6FADE7F52552ABB8006DF99F /* validate-faces-read.cpp in Sources */,
+				6FADE7E02552ABB8006DF99F /* find-rectangles.cpp in Sources */,
+				6FADE7EA2552ABB8006DF99F /* read-face-characters.cpp in Sources */,
+				6FADE7EE2552ABB8006DF99F /* simple-ocr.cpp in Sources */,
 				6F565C272551694B00B6B3B1 /* ImageProcessorImpl.cpp in Sources */,
+				6FADE7D02552ABB8006DF99F /* decode-die.cpp in Sources */,
+				6FADE7D22552ABB8006DF99F /* inconsolata-700.cpp in Sources */,
+				6FADE7D52552ABB8006DF99F /* face-read.cpp in Sources */,
 				6FFBA918255191640056234D /* DJIError.mm in Sources */,
+				6FADE7F72552ABB8006DF99F /* visualize-read-results.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
