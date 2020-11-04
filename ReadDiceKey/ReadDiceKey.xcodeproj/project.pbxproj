@@ -100,6 +100,7 @@
 		6F1C40FA25505DE000EB8C43 /* ReadDiceKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadDiceKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1C40FF25505DE000EB8C43 /* ReadDiceKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadDiceKeyTests.swift; sourceTree = "<group>"; };
 		6F1C410125505DE000EB8C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2895602552B0A700969E76 /* ReadDiceKey.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ReadDiceKey.podspec; path = ../ReadDiceKey.podspec; sourceTree = "<group>"; };
 		6F564BF82551551500B6B3B1 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../deps/ios/opencv2.framework; sourceTree = "<group>"; };
 		6F565C0B2551694B00B6B3B1 /* ImageProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessor.hpp; sourceTree = "<group>"; };
 		6F565C152551694B00B6B3B1 /* DiceKeys-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiceKeys-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -199,6 +200,7 @@
 		6F1C40E725505DE000EB8C43 = {
 			isa = PBXGroup;
 			children = (
+				6F2895602552B0A700969E76 /* ReadDiceKey.podspec */,
 				6F1C40F325505DE000EB8C43 /* ReadDiceKey */,
 				6F1C40FE25505DE000EB8C43 /* ReadDiceKeyTests */,
 				6F1C40F225505DE000EB8C43 /* Products */,

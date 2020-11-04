@@ -90,10 +90,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ReadDiceKey/**/*.{h,m}", "generated_src/**/*.{h,m,hpp,cpp}", "handwritten_src/**/*.{hpp,cpp}", "deps/djinni/support_lib/**/*.{h,mm,hpp,cpp}", "deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}", "deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "ReadDiceKey/**/*.{h,m}", "generated_src/{cpp,objc}/*.{h,m,hpp,cpp}", "handwritten_src/**/*.{hpp,cpp}", "deps/djinni/support_lib/**/*.{h,mm,hpp,cpp}", "deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}", "deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}"
+  spec.exclude_files = "deps/djinni/support_lib/jni"
 
-  spec.public_header_files = "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h", "deps/djinni/support_lib/**/*.{h,hpp}"
+  # spec.public_header_files = "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h", "deps/djinni/support_lib/**/*.{h,hpp}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
