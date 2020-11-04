@@ -14,7 +14,7 @@ BASE_DIR=$(cd "`dirname $0`" && pwd)
 # Get java directory from package name
 JAVA_DIR=$(echo $JAVA_PACKAGE | tr . /)
 
-GENERATED_OUTPUT_FOLDER="$BASE_DIR/generated_src"
+GENERATED_OUTPUT_FOLDER="$BASE_DIR/ReadDiceKey/ReadDiceKey/generated_src"
 
 # Output directories for generated src
 CPP_OUTPUT_FOLDER="$GENERATED_OUTPUT_FOLDER/cpp"
