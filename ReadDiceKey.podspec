@@ -90,16 +90,23 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ReadDiceKey/**/*.{h,m}", "generated_src/**/*.{h,m,hpp,cpp}", "handwritten_src/**/*.{hpp,cpp}", "deps/djinni/support_lib/**/*.{h,mm,hpp,cpp}", "deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}", "deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}"
+  spec.source_files =
+    "deps/djinni/support_lib/**/*.{h,mm,hpp,cpp}",
+    "deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}",
+    "deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}",
+    "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h",
+    "deps/djinni/support_lib/**/*.{h,hpp}",
+    "generated_src/**/*.{h,m,hpp,cpp}",
+    "handwritten_src/**/*.{hpp,cpp}",
+    "ReadDiceKey/**/*.{h,m}",
+
   spec.exclude_files = "Classes/Exclude"
 
-  spec.private_header_files =
-    "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h",
-    "deps/djinni/support_lib/**/*.{h,hpp}"
+#  spec.private_header_files =
 
-  spec.public_header_files =
-    "ReadDiceKey/ReadDiceKey.h",
-    "ReadDiceKey/generated_src/**.{h,hpp}"
+#  spec.public_header_files =
+#    "ReadDiceKey/ReadDiceKey.h",
+#    "ReadDiceKey/generated_src/*.{h,hpp}"
 
   # spec.header_mappings_dir = 'src/include'
 
