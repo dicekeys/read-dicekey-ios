@@ -93,8 +93,16 @@ Pod::Spec.new do |spec|
   spec.source_files  = "ReadDiceKey/**/*.{h,m}", "generated_src/**/*.{h,m,hpp,cpp}", "handwritten_src/**/*.{hpp,cpp}", "deps/djinni/support_lib/**/*.{h,mm,hpp,cpp}", "deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}", "deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}"
   spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h", "deps/djinni/support_lib/**/*.{h,hpp}"
+  spec.private_header_files =
+    "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h",
+    "deps/djinni/support_lib/**/*.{h,hpp}",
+    "ReadDiceKey/generated_src/cpp/*.hpp"
 
+  spec.public_header_files =
+    "ReadDiceKey/ReadDiceKey.h",
+    "ReadDiceKey/generated_src/objc/*.h",
+
+  spec.header_mappings_dir = 'src/include'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

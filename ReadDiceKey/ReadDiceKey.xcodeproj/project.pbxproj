@@ -14,7 +14,6 @@
 		6F5E5B9A2552EBC800B72F0F /* ImageProcessorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E5B902552EBC800B72F0F /* ImageProcessorImpl.cpp */; };
 		6F5E5B9B2552EBC800B72F0F /* ImageProcessorImpl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B912552EBC800B72F0F /* ImageProcessorImpl.hpp */; };
 		6F5E5B9C2552EBC800B72F0F /* ImageProcessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B942552EBC800B72F0F /* ImageProcessor.hpp */; };
-		6F5E5B9D2552EBC800B72F0F /* DiceKeys-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B962552EBC800B72F0F /* DiceKeys-Bridging-Header.h */; };
 		6F5E5B9E2552EBC800B72F0F /* DKImageProcessor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */; };
 		6F5E5B9F2552EBC800B72F0F /* DKImageProcessor+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */; };
 		6F5E5BA02552EBC800B72F0F /* DKImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */; };
@@ -109,7 +108,6 @@
 		6F5E5B902552EBC800B72F0F /* ImageProcessorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessorImpl.cpp; sourceTree = "<group>"; };
 		6F5E5B912552EBC800B72F0F /* ImageProcessorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessorImpl.hpp; sourceTree = "<group>"; };
 		6F5E5B942552EBC800B72F0F /* ImageProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessor.hpp; sourceTree = "<group>"; };
-		6F5E5B962552EBC800B72F0F /* DiceKeys-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiceKeys-Bridging-Header.h"; sourceTree = "<group>"; };
 		6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DKImageProcessor+Private.h"; sourceTree = "<group>"; };
 		6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "DKImageProcessor+Private.mm"; sourceTree = "<group>"; };
 		6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageProcessor.h; sourceTree = "<group>"; };
@@ -291,7 +289,6 @@
 		6F5E5B952552EBC800B72F0F /* objc */ = {
 			isa = PBXGroup;
 			children = (
-				6F5E5B962552EBC800B72F0F /* DiceKeys-Bridging-Header.h */,
 				6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */,
 				6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */,
 				6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */,
@@ -499,7 +496,6 @@
 				6FADE7DC2552ABB8006DF99F /* color.h in Headers */,
 				6FADE7C22552ABB8006DF99F /* json.hpp in Headers */,
 				6FADE7E72552ABB8006DF99F /* json.h in Headers */,
-				6F5E5B9D2552EBC800B72F0F /* DiceKeys-Bridging-Header.h in Headers */,
 				6FADE7D62552ABB8006DF99F /* face-read.h in Headers */,
 				6FADE7D32552ABB8006DF99F /* inconsolata-700.h in Headers */,
 				6FADE7F32552ABB8006DF99F /* statistics.h in Headers */,
