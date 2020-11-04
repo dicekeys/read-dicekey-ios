@@ -40,6 +40,8 @@ rm -rf $OBJC_OUTPUT_FOLDER
 # Run Djinni
 
 $BASE_DIR/deps/djinni/src/run \
+    --idl $IDL_FILE \
+    \
     --cpp-out $CPP_OUTPUT_FOLDER \
     --cpp-namespace $CPP_NAMESPACE \
     --cpp-optional-template "std::experimental::optional" \
@@ -57,18 +59,16 @@ $BASE_DIR/deps/djinni/src/run \
     --objcpp-out $OBJC_OUTPUT_FOLDER \
     --objc-type-prefix $OBJC_PREFIX \
     --objc-swift-bridging-header $BRIDGING_HEADER \
-    \
-    --java-out $JAVA_OUTPUT_FOLDER \
-    --java-package $JAVA_PACKAGE \
-    --ident-java-field fooBar \
-    --ident-java-enum FooBar \
-    --ident-java-type FooBar \
-    \
-    --jni-out $JNI_OUTPUT_FOLDER \
-    --ident-jni-class NativeFooBar \
-    --ident-jni-file NativeFooBar \
-    \
-    --idl $IDL_FILE
+#    \
+#    --java-out $JAVA_OUTPUT_FOLDER \
+#    --java-package $JAVA_PACKAGE \
+#   --ident-java-field fooBar \
+#    --ident-java-enum FooBar \
+#    --ident-java-type FooBar \
+#    \
+#    --jni-out $JNI_OUTPUT_FOLDER \
+#    --ident-jni-class NativeFooBar \
+#    --ident-jni-file NativeFooBar \
 
-cp "$OBJC_OUTPUT_FOLDER/$BRIDGING_HEADER.h" "$BASE_DIR/project_ios/DiceKeys/$BRIDGING_HEADER.h"
+# cp "$OBJC_OUTPUT_FOLDER/$BRIDGING_HEADER.h" "$BASE_DIR/project_ios/DiceKeys/$BRIDGING_HEADER.h"
 
