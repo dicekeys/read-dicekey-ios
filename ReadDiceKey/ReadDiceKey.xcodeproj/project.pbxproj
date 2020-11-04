@@ -263,6 +263,8 @@
 		6F5E5B8F2552EBC800B72F0F /* cpp */ = {
 			isa = PBXGroup;
 			children = (
+				6F5E5B902552EBC800B72F0F /* ImageProcessorImpl.cpp */,
+				6F5E5B912552EBC800B72F0F /* ImageProcessorImpl.hpp */,
 			);
 			path = cpp;
 			sourceTree = "<group>";
@@ -270,12 +272,6 @@
 		6F5E5B922552EBC800B72F0F /* generated_src */ = {
 			isa = PBXGroup;
 			children = (
-				6F5E5B942552EBC800B72F0F /* ImageProcessor.hpp */,
-				6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */,
-				6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */,
-				6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */,
-				6F5E5B902552EBC800B72F0F /* ImageProcessorImpl.cpp */,
-				6F5E5B912552EBC800B72F0F /* ImageProcessorImpl.hpp */,
 				6F5E5B932552EBC800B72F0F /* cpp */,
 				6F5E5B952552EBC800B72F0F /* objc */,
 			);
@@ -285,6 +281,7 @@
 		6F5E5B932552EBC800B72F0F /* cpp */ = {
 			isa = PBXGroup;
 			children = (
+				6F5E5B942552EBC800B72F0F /* ImageProcessor.hpp */,
 			);
 			path = cpp;
 			sourceTree = "<group>";
@@ -292,6 +289,9 @@
 		6F5E5B952552EBC800B72F0F /* objc */ = {
 			isa = PBXGroup;
 			children = (
+				6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */,
+				6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */,
+				6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */,
 			);
 			path = objc;
 			sourceTree = "<group>";

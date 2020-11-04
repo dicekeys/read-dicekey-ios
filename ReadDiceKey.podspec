@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ReadDiceKey"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.1"
   spec.summary      = "ReadDiceKey library for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -90,25 +90,19 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files =
-    "deps/djinni/support_lib/**/*.{h,mm,hpp,cpp}",
-    "deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}",
-    "deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}",
-    "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h",
-    "deps/djinni/support_lib/**/*.{h,hpp}",
-    "generated_src/**/*.{h,m,hpp,cpp}",
-    "handwritten_src/**/*.{hpp,cpp}",
-    "ReadDiceKey/**/*.{h,m}",
-
+  spec.source_files  = "ReadDiceKey/**/*.{h,m}", "generated_src/**/*.{h,m,hpp,cpp}", "handwritten_src/**/*.{hpp,cpp}", "deps/djinni/support_lib/**/*.{h,mm,hpp,cpp}", "deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}", "deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}"
   spec.exclude_files = "Classes/Exclude"
 
-#  spec.private_header_files =
+  spec.private_header_files =
+    "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h",
+    "deps/djinni/support_lib/**/*.{h,hpp}",
+    "ReadDiceKey/generated_src/cpp/*.hpp"
 
-#  spec.public_header_files =
-#    "ReadDiceKey/ReadDiceKey.h",
-#    "ReadDiceKey/generated_src/*.{h,hpp}"
+  spec.public_header_files =
+    "ReadDiceKey/ReadDiceKey.h",
+    "ReadDiceKey/generated_src/objc/*.h",
 
-  # spec.header_mappings_dir = 'src/include'
+  spec.header_mappings_dir = 'src/include'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
