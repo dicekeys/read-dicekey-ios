@@ -11,13 +11,13 @@
 		6F1C410025505DE000EB8C43 /* ReadDiceKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1C40FF25505DE000EB8C43 /* ReadDiceKeyTests.swift */; };
 		6F1C410225505DE000EB8C43 /* ReadDiceKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1C40F425505DE000EB8C43 /* ReadDiceKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F564BF92551551500B6B3B1 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F564BF82551551500B6B3B1 /* opencv2.framework */; };
-		6F5E5B6D2552D80000B72F0F /* ImageProcessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B632552D80000B72F0F /* ImageProcessor.hpp */; };
-		6F5E5B6E2552D80000B72F0F /* DiceKeys-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B652552D80000B72F0F /* DiceKeys-Bridging-Header.h */; };
-		6F5E5B6F2552D80000B72F0F /* DKImageProcessor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B662552D80000B72F0F /* DKImageProcessor+Private.h */; };
-		6F5E5B702552D80000B72F0F /* DKImageProcessor+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E5B672552D80000B72F0F /* DKImageProcessor+Private.mm */; };
-		6F5E5B712552D80000B72F0F /* DKImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B682552D80000B72F0F /* DKImageProcessor.h */; };
-		6F5E5B722552D80000B72F0F /* ImageProcessorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E5B6B2552D80000B72F0F /* ImageProcessorImpl.cpp */; };
-		6F5E5B732552D80000B72F0F /* ImageProcessorImpl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B6C2552D80000B72F0F /* ImageProcessorImpl.hpp */; };
+		6F5E5B9A2552EBC800B72F0F /* ImageProcessorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E5B902552EBC800B72F0F /* ImageProcessorImpl.cpp */; };
+		6F5E5B9B2552EBC800B72F0F /* ImageProcessorImpl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B912552EBC800B72F0F /* ImageProcessorImpl.hpp */; };
+		6F5E5B9C2552EBC800B72F0F /* ImageProcessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B942552EBC800B72F0F /* ImageProcessor.hpp */; };
+		6F5E5B9D2552EBC800B72F0F /* DiceKeys-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B962552EBC800B72F0F /* DiceKeys-Bridging-Header.h */; };
+		6F5E5B9E2552EBC800B72F0F /* DKImageProcessor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */; };
+		6F5E5B9F2552EBC800B72F0F /* DKImageProcessor+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */; };
+		6F5E5BA02552EBC800B72F0F /* DKImageProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */; };
 		6FADE7C22552ABB8006DF99F /* json.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE74D2552ABB8006DF99F /* json.hpp */; };
 		6FADE7C42552ABB8006DF99F /* dicekey-from-human-readable-form.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE7502552ABB8006DF99F /* dicekey-from-human-readable-form.cpp */; };
 		6FADE7C52552ABB8006DF99F /* dicekey-from-human-readable-form.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FADE7512552ABB8006DF99F /* dicekey-from-human-readable-form.hpp */; };
@@ -101,18 +101,18 @@
 		6F1C40FF25505DE000EB8C43 /* ReadDiceKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadDiceKeyTests.swift; sourceTree = "<group>"; };
 		6F1C410125505DE000EB8C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F564BF82551551500B6B3B1 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../deps/ios/opencv2.framework; sourceTree = "<group>"; };
-		6F5E5B5C2552D7E700B72F0F /* id.djinni */ = {isa = PBXFileReference; lastKnownFileType = text; path = id.djinni; sourceTree = "<group>"; };
-		6F5E5B5D2552D7E700B72F0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6F5E5B5E2552D7E700B72F0F /* ReadDiceKey.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadDiceKey.podspec; sourceTree = "<group>"; };
-		6F5E5B5F2552D7E700B72F0F /* run_djinni.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_djinni.sh; sourceTree = "<group>"; };
-		6F5E5B602552D7E700B72F0F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		6F5E5B632552D80000B72F0F /* ImageProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessor.hpp; sourceTree = "<group>"; };
-		6F5E5B652552D80000B72F0F /* DiceKeys-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiceKeys-Bridging-Header.h"; sourceTree = "<group>"; };
-		6F5E5B662552D80000B72F0F /* DKImageProcessor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DKImageProcessor+Private.h"; sourceTree = "<group>"; };
-		6F5E5B672552D80000B72F0F /* DKImageProcessor+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "DKImageProcessor+Private.mm"; sourceTree = "<group>"; };
-		6F5E5B682552D80000B72F0F /* DKImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageProcessor.h; sourceTree = "<group>"; };
-		6F5E5B6B2552D80000B72F0F /* ImageProcessorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessorImpl.cpp; sourceTree = "<group>"; };
-		6F5E5B6C2552D80000B72F0F /* ImageProcessorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessorImpl.hpp; sourceTree = "<group>"; };
+		6F5E5B852552EA9400B72F0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6F5E5B862552EA9400B72F0F /* ReadDiceKey.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ReadDiceKey.podspec; path = ../ReadDiceKey.podspec; sourceTree = "<group>"; };
+		6F5E5B872552EA9400B72F0F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
+		6F5E5B882552EA9400B72F0F /* run_djinni.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = run_djinni.sh; path = ../run_djinni.sh; sourceTree = "<group>"; };
+		6F5E5B8B2552EAC800B72F0F /* id.djinni */ = {isa = PBXFileReference; lastKnownFileType = text; name = id.djinni; path = ../id.djinni; sourceTree = "<group>"; };
+		6F5E5B902552EBC800B72F0F /* ImageProcessorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessorImpl.cpp; sourceTree = "<group>"; };
+		6F5E5B912552EBC800B72F0F /* ImageProcessorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessorImpl.hpp; sourceTree = "<group>"; };
+		6F5E5B942552EBC800B72F0F /* ImageProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessor.hpp; sourceTree = "<group>"; };
+		6F5E5B962552EBC800B72F0F /* DiceKeys-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiceKeys-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DKImageProcessor+Private.h"; sourceTree = "<group>"; };
+		6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "DKImageProcessor+Private.mm"; sourceTree = "<group>"; };
+		6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageProcessor.h; sourceTree = "<group>"; };
 		6FADE74D2552ABB8006DF99F /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
 		6FADE74F2552ABB8006DF99F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		6FADE7502552ABB8006DF99F /* dicekey-from-human-readable-form.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "dicekey-from-human-readable-form.cpp"; sourceTree = "<group>"; };
@@ -203,11 +203,11 @@
 		6F1C40E725505DE000EB8C43 = {
 			isa = PBXGroup;
 			children = (
-				6F5E5B5C2552D7E700B72F0F /* id.djinni */,
-				6F5E5B602552D7E700B72F0F /* LICENSE.md */,
-				6F5E5B5D2552D7E700B72F0F /* README.md */,
-				6F5E5B5E2552D7E700B72F0F /* ReadDiceKey.podspec */,
-				6F5E5B5F2552D7E700B72F0F /* run_djinni.sh */,
+				6F5E5B8B2552EAC800B72F0F /* id.djinni */,
+				6F5E5B872552EA9400B72F0F /* LICENSE.md */,
+				6F5E5B852552EA9400B72F0F /* README.md */,
+				6F5E5B862552EA9400B72F0F /* ReadDiceKey.podspec */,
+				6F5E5B882552EA9400B72F0F /* run_djinni.sh */,
 				6F1C40F225505DE000EB8C43 /* Products */,
 				6F1C40F325505DE000EB8C43 /* ReadDiceKey */,
 				6F1C40FE25505DE000EB8C43 /* ReadDiceKeyTests */,
@@ -229,8 +229,8 @@
 				6F1C40F425505DE000EB8C43 /* ReadDiceKey.h */,
 				6F1C40F525505DE000EB8C43 /* Info.plist */,
 				6F564B752551535200B6B3B1 /* deps */,
-				6F5E5B612552D80000B72F0F /* generated_src */,
-				6F5E5B692552D80000B72F0F /* handwritten_src */,
+				6F5E5B922552EBC800B72F0F /* generated_src */,
+				6F5E5B8E2552EBC800B72F0F /* handwritten_src */,
 			);
 			path = ReadDiceKey;
 			sourceTree = "<group>";
@@ -254,49 +254,49 @@
 			name = deps;
 			sourceTree = "<group>";
 		};
-		6F5E5B612552D80000B72F0F /* generated_src */ = {
+		6F5E5B8E2552EBC800B72F0F /* handwritten_src */ = {
 			isa = PBXGroup;
 			children = (
-				6F5E5B622552D80000B72F0F /* cpp */,
-				6F5E5B642552D80000B72F0F /* objc */,
-			);
-			path = generated_src;
-			sourceTree = "<group>";
-		};
-		6F5E5B622552D80000B72F0F /* cpp */ = {
-			isa = PBXGroup;
-			children = (
-				6F5E5B632552D80000B72F0F /* ImageProcessor.hpp */,
-			);
-			path = cpp;
-			sourceTree = "<group>";
-		};
-		6F5E5B642552D80000B72F0F /* objc */ = {
-			isa = PBXGroup;
-			children = (
-				6F5E5B652552D80000B72F0F /* DiceKeys-Bridging-Header.h */,
-				6F5E5B662552D80000B72F0F /* DKImageProcessor+Private.h */,
-				6F5E5B672552D80000B72F0F /* DKImageProcessor+Private.mm */,
-				6F5E5B682552D80000B72F0F /* DKImageProcessor.h */,
-			);
-			path = objc;
-			sourceTree = "<group>";
-		};
-		6F5E5B692552D80000B72F0F /* handwritten_src */ = {
-			isa = PBXGroup;
-			children = (
-				6F5E5B6A2552D80000B72F0F /* cpp */,
+				6F5E5B8F2552EBC800B72F0F /* cpp */,
 			);
 			path = handwritten_src;
 			sourceTree = "<group>";
 		};
-		6F5E5B6A2552D80000B72F0F /* cpp */ = {
+		6F5E5B8F2552EBC800B72F0F /* cpp */ = {
 			isa = PBXGroup;
 			children = (
-				6F5E5B6B2552D80000B72F0F /* ImageProcessorImpl.cpp */,
-				6F5E5B6C2552D80000B72F0F /* ImageProcessorImpl.hpp */,
+				6F5E5B902552EBC800B72F0F /* ImageProcessorImpl.cpp */,
+				6F5E5B912552EBC800B72F0F /* ImageProcessorImpl.hpp */,
 			);
 			path = cpp;
+			sourceTree = "<group>";
+		};
+		6F5E5B922552EBC800B72F0F /* generated_src */ = {
+			isa = PBXGroup;
+			children = (
+				6F5E5B932552EBC800B72F0F /* cpp */,
+				6F5E5B952552EBC800B72F0F /* objc */,
+			);
+			path = generated_src;
+			sourceTree = "<group>";
+		};
+		6F5E5B932552EBC800B72F0F /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				6F5E5B942552EBC800B72F0F /* ImageProcessor.hpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		6F5E5B952552EBC800B72F0F /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				6F5E5B962552EBC800B72F0F /* DiceKeys-Bridging-Header.h */,
+				6F5E5B992552EBC800B72F0F /* DKImageProcessor.h */,
+				6F5E5B972552EBC800B72F0F /* DKImageProcessor+Private.h */,
+				6F5E5B982552EBC800B72F0F /* DKImageProcessor+Private.mm */,
+			);
+			path = objc;
 			sourceTree = "<group>";
 		};
 		6FADE7402552ABB8006DF99F /* read-dicekey */ = {
@@ -469,10 +469,12 @@
 				6FADE7CC2552ABB8006DF99F /* lib-dicekey.hpp in Headers */,
 				6F5E5B6D2552D80000B72F0F /* ImageProcessor.hpp in Headers */,
 				6FADE7E92552ABB8006DF99F /* read-dicekey.hpp in Headers */,
+				6F5E5BA02552EBC800B72F0F /* DKImageProcessor.h in Headers */,
 				6FADE7D42552ABB8006DF99F /* ocr-font.h in Headers */,
 				6FADE7F22552ABB8006DF99F /* bit-operations.h in Headers */,
 				6F5E5B712552D80000B72F0F /* DKImageProcessor.h in Headers */,
 				6FADE7ED2552ABB8006DF99F /* read-faces.h in Headers */,
+				6F5E5B9E2552EBC800B72F0F /* DKImageProcessor+Private.h in Headers */,
 				6FADE7CE2552ABB8006DF99F /* assemble-dicekey.hpp in Headers */,
 				6FADE7EB2552ABB8006DF99F /* read-face-characters.h in Headers */,
 				6FADE7DD2552ABB8006DF99F /* cv.h in Headers */,
@@ -487,12 +489,14 @@
 				6FADE7C92552ABB8006DF99F /* dicekey-face-specification.h in Headers */,
 				6F5E5B6E2552D80000B72F0F /* DiceKeys-Bridging-Header.h in Headers */,
 				6FFBA91E255191640056234D /* proxy_cache_impl.hpp in Headers */,
+				6F5E5B9B2552EBC800B72F0F /* ImageProcessorImpl.hpp in Headers */,
 				6FFBA91A255191640056234D /* DJIObjcWrapperCache+Private.h in Headers */,
 				6FADE7DF2552ABB8006DF99F /* draw-rotated-rect.h in Headers */,
 				6FADE7E22552ABB8006DF99F /* geometry.h in Headers */,
 				6FADE7E32552ABB8006DF99F /* rectangle.h in Headers */,
 				6FADE7E12552ABB8006DF99F /* find-rectangles.h in Headers */,
 				6FADE7F42552ABB8006DF99F /* vfunctional.h in Headers */,
+				6F5E5B9C2552EBC800B72F0F /* ImageProcessor.hpp in Headers */,
 				6FADE7CB2552ABB8006DF99F /* face.hpp in Headers */,
 				6FADE7F12552ABB8006DF99F /* undoverline.h in Headers */,
 				6FFBA919255191640056234D /* DJIMarshal+Private.h in Headers */,
@@ -500,6 +504,7 @@
 				6FADE7DC2552ABB8006DF99F /* color.h in Headers */,
 				6FADE7C22552ABB8006DF99F /* json.hpp in Headers */,
 				6FADE7E72552ABB8006DF99F /* json.h in Headers */,
+				6F5E5B9D2552EBC800B72F0F /* DiceKeys-Bridging-Header.h in Headers */,
 				6FADE7D62552ABB8006DF99F /* face-read.h in Headers */,
 				6FADE7D32552ABB8006DF99F /* inconsolata-700.h in Headers */,
 				6FADE7F32552ABB8006DF99F /* statistics.h in Headers */,
@@ -605,10 +610,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5E5B9F2552EBC800B72F0F /* DKImageProcessor+Private.mm in Sources */,
 				6FADE7DE2552ABB8006DF99F /* draw-rotated-rect.cpp in Sources */,
 				6FADE7D92552ABB8006DF99F /* find-undoverlines.cpp in Sources */,
 				6FADE7EC2552ABB8006DF99F /* read-faces.cpp in Sources */,
 				6FADE7D72552ABB8006DF99F /* find-faces.cpp in Sources */,
+				6F5E5B9A2552EBC800B72F0F /* ImageProcessorImpl.cpp in Sources */,
 				6FADE7E62552ABB8006DF99F /* json.cpp in Sources */,
 				6FADE7F02552ABB8006DF99F /* undoverline.cpp in Sources */,
 				6FADE7F92552ABB8006DF99F /* write-face-characters.cpp in Sources */,

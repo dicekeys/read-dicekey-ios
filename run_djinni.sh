@@ -23,7 +23,7 @@ JNI_OUTPUT_FOLDER="$GENERATED_OUTPUT_FOLDER/jni"
 OBJC_OUTPUT_FOLDER="$GENERATED_OUTPUT_FOLDER/objc"
 
 # Briding header
-BRIDGING_HEADER="DiceKeys-Bridging-Header"
+BRIDGING_HEADER="ReadDiceKey-Bridging-Header"
 
 # Bootstrap
 
@@ -58,11 +58,11 @@ $BASE_DIR/deps/djinni/src/run \
     --objc-out $OBJC_OUTPUT_FOLDER \
     --objcpp-out $OBJC_OUTPUT_FOLDER \
     --objc-type-prefix $OBJC_PREFIX \
-    --objc-swift-bridging-header $BRIDGING_HEADER \
+#    --objc-swift-bridging-header $BRIDGING_HEADER \
 #    \
 #    --java-out $JAVA_OUTPUT_FOLDER \
 #    --java-package $JAVA_PACKAGE \
-#    --ident-java-field fooBar \
+#   --ident-java-field fooBar \
 #    --ident-java-enum FooBar \
 #    --ident-java-type FooBar \
 #    \
@@ -70,4 +70,5 @@ $BASE_DIR/deps/djinni/src/run \
 #    --ident-jni-class NativeFooBar \
 #    --ident-jni-file NativeFooBar \
 
+# cp "$OBJC_OUTPUT_FOLDER/$BRIDGING_HEADER.h" "$BASE_DIR/project_ios/DiceKeys/$BRIDGING_HEADER.h"
 
