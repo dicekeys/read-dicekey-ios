@@ -95,14 +95,13 @@ Pod::Spec.new do |spec|
 
   spec.private_header_files =
     "deps/read-dicekey/lib-dicekey/externally-generated/**/*.h",
-    "deps/djinni/support_lib/**/*.{h,hpp}",
-    "ReadDiceKey/generated_src/cpp/*.hpp"
+    "deps/djinni/support_lib/**/*.{h,hpp}"
 
   spec.public_header_files =
     "ReadDiceKey/ReadDiceKey.h",
-    "ReadDiceKey/generated_src/objc/*.h",
+    "ReadDiceKey/generated_src/**.{h,hpp}"
 
-  spec.header_mappings_dir = 'src/include'
+  # spec.header_mappings_dir = 'src/include'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
