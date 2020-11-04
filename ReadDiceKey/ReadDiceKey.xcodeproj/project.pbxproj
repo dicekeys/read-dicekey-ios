@@ -245,9 +245,9 @@
 		6F564B752551535200B6B3B1 /* deps */ = {
 			isa = PBXGroup;
 			children = (
-				6FADE7402552ABB8006DF99F /* read-dicekey */,
 				6F564BF82551551500B6B3B1 /* opencv2.framework */,
 				6FFB9B402551915A0056234D /* djinni */,
+				6FADE7402552ABB8006DF99F /* read-dicekey */,
 			);
 			name = deps;
 			sourceTree = "<group>";
