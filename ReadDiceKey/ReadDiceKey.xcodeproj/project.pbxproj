@@ -108,11 +108,11 @@
 		6F565C182551694B00B6B3B1 /* DKImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageProcessor.h; sourceTree = "<group>"; };
 		6F565C1B2551694B00B6B3B1 /* ImageProcessorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessorImpl.cpp; sourceTree = "<group>"; };
 		6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessorImpl.hpp; sourceTree = "<group>"; };
-		6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageProcessor.djinni; sourceTree = "<group>"; };
 		6F5E5B852552EA9400B72F0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6F5E5B862552EA9400B72F0F /* ReadDiceKey.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ReadDiceKey.podspec; path = ../ReadDiceKey.podspec; sourceTree = "<group>"; };
 		6F5E5B872552EA9400B72F0F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		6F5E5B882552EA9400B72F0F /* run_djinni.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = run_djinni.sh; path = ../run_djinni.sh; sourceTree = "<group>"; };
+		6F5E5B8B2552EAC800B72F0F /* id.djinni */ = {isa = PBXFileReference; lastKnownFileType = text; name = id.djinni; path = ../id.djinni; sourceTree = "<group>"; };
 		6FADE74D2552ABB8006DF99F /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
 		6FADE74F2552ABB8006DF99F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		6FADE7502552ABB8006DF99F /* dicekey-from-human-readable-form.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "dicekey-from-human-readable-form.cpp"; sourceTree = "<group>"; };
@@ -203,6 +203,7 @@
 		6F1C40E725505DE000EB8C43 = {
 			isa = PBXGroup;
 			children = (
+				6F5E5B8B2552EAC800B72F0F /* id.djinni */,
 				6F5E5B872552EA9400B72F0F /* LICENSE.md */,
 				6F5E5B852552EA9400B72F0F /* README.md */,
 				6F5E5B862552EA9400B72F0F /* ReadDiceKey.podspec */,
@@ -228,7 +229,6 @@
 				6F564B752551535200B6B3B1 /* deps */,
 				6F565C092551694B00B6B3B1 /* generated_src */,
 				6F565C192551694B00B6B3B1 /* handwritten_src */,
-				6F565C1D2551694B00B6B3B1 /* idl */,
 				6F1C40F525505DE000EB8C43 /* Info.plist */,
 				6F1C40F425505DE000EB8C43 /* ReadDiceKey.h */,
 			);
@@ -299,15 +299,6 @@
 				6F565C1C2551694B00B6B3B1 /* ImageProcessorImpl.hpp */,
 			);
 			path = cpp;
-			sourceTree = "<group>";
-		};
-		6F565C1D2551694B00B6B3B1 /* idl */ = {
-			isa = PBXGroup;
-			children = (
-				6F565C1E2551694B00B6B3B1 /* ImageProcessor.djinni */,
-			);
-			name = idl;
-			path = ../../idl;
 			sourceTree = "<group>";
 		};
 		6FADE7402552ABB8006DF99F /* read-dicekey */ = {
