@@ -23,7 +23,7 @@ class ViewController: UIViewController {
             let w = Int32(image.cgImage!.width)
             let h = Int32(image.cgImage!.height)
 
-            let bitmap = image.cgImage!.bitmap!
+            let bitmap = image.bitmap!
 
             // Test API
             // Initialize wrapper
@@ -35,6 +35,10 @@ class ViewController: UIViewController {
             print(wrapper.augmented(bitmap, width: w, height: h))
             print(wrapper.json())
             print(wrapper.isFinished())
+
+            let augmentedData = wrapper.augmented(bitmap, width: w, height: h)
+            let augmentedImage = UIImage(bitmap: augmentedData, width: Int(w), height: Int(h))!
+            print(augmentedImage)
         }
 
     }
