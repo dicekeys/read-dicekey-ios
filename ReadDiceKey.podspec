@@ -66,5 +66,6 @@ Pod::Spec.new do |s|
 
   s.dependency "OpenCV2", '~> 4.3.0'
   s.dependency 'Djinni', '~> 4.4.1'
+  
   s.static_framework = true
 end
