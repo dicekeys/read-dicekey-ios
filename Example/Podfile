@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReadDiceKey_Example' do
+  pod 'ReadDiceKey', :path => '../'
+
+  target 'ReadDiceKey_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

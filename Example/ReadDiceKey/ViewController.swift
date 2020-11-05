@@ -1,0 +1,48 @@
+//
+//  ViewController.swift
+//  ReadDiceKey
+//
+//  Created by nmtitov on 11/05/2020.
+//  Copyright (c) 2020 nmtitov. All rights reserved.
+//
+
+import UIKit
+import ReadDiceKey
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+
+        // Test
+        do {
+            // Load test image from bundle
+            let image = UIImage(named: "test")!
+
+            let w = Int32(image.cgImage!.width)
+            let h = Int32(image.cgImage!.height)
+
+            let data = image.cgImage!.bitmap!
+
+            // Test API
+            // Initialize wrapper
+            let wrapper = DKImageProcessor.create()!
+            
+            // Call API methods
+            print(wrapper.augmented(data, width: w, height: h))
+            print(wrapper.process(data, width: w, height: h))
+            print(wrapper.augmented(data, width: w, height: h))
+            print(wrapper.json())
+            print(wrapper.isFinished())
+        }
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+}
+

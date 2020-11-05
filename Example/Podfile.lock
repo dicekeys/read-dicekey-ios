@@ -1,0 +1,29 @@
+PODS:
+  - Djinni (4.4.1):
+    - Djinni/objc (= 4.4.1)
+  - Djinni/objc (4.4.1)
+  - OpenCV2 (4.3.0)
+  - ReadDiceKey (0.1.0):
+    - Djinni (~> 4.4.1)
+    - OpenCV2 (~> 4.3.0)
+
+DEPENDENCIES:
+  - ReadDiceKey (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Djinni
+    - OpenCV2
+
+EXTERNAL SOURCES:
+  ReadDiceKey:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Djinni: de170220fcf453440e0fa7c71582040aa095591d
+  OpenCV2: ffe82e5cb5d16dc3fc01a5f4127b9a5b3cfc7d1b
+  ReadDiceKey: 42977a8a695cc8b4fcbddbe250e0dd0bea9dbce4
+
+PODFILE CHECKSUM: 7c763699bc591898a8e9ccc1fa9ad3c836cdf2db
+
+COCOAPODS: 1.10.0
