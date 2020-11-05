@@ -23,16 +23,16 @@ class ViewController: UIViewController {
             let w = Int32(image.cgImage!.width)
             let h = Int32(image.cgImage!.height)
 
-            let data = image.cgImage!.bitmap!
+            let bitmap = image.cgImage!.bitmap!
 
             // Test API
             // Initialize wrapper
             let wrapper = DKImageProcessor.create()!
             
             // Call API methods
-            print(wrapper.augmented(data, width: w, height: h))
-            print(wrapper.process(data, width: w, height: h))
-            print(wrapper.augmented(data, width: w, height: h))
+            print(wrapper.process(bitmap, width: w, height: h))
+            print(wrapper.overlay(bitmap, width: w, height: h))
+            print(wrapper.augmented(bitmap, width: w, height: h))
             print(wrapper.json())
             print(wrapper.isFinished())
         }
