@@ -20,8 +20,8 @@ class ViewController: UIViewController {
             // Load test image from bundle
             let image = UIImage(named: "test")!
 
-            let w = Int32(image.cgImage!.width)
-            let h = Int32(image.cgImage!.height)
+            let w = image.cgImage!.width
+            let h = image.cgImage!.height
 
             let bitmap = image.bitmap!
 
@@ -30,15 +30,17 @@ class ViewController: UIViewController {
             let wrapper = DKImageProcessor.create()!
             
             // Call API methods
-            print(wrapper.process(bitmap, width: w, height: h))
-            print(wrapper.overlay(bitmap, width: w, height: h))
-            print(wrapper.augmented(bitmap, width: w, height: h))
+            print(wrapper.process(bitmap, width: Int32(w), height: Int32(h)))
+            print(wrapper.overlay(bitmap, width: Int32(w), height: Int32(h)))
+            print(wrapper.augmented(bitmap, width: Int32(w), height: Int32(h)))
             print(wrapper.json())
             print(wrapper.isFinished())
 
-            let augmentedData = wrapper.augmented(bitmap, width: w, height: h)
-            let augmentedImage = UIImage(bitmap: augmentedData, width: Int(w), height: Int(h))!
-            print(augmentedImage)
+            do {
+                let augmented = wrapper.augmented(bitmap, width: Int32(w), height: Int32(h))
+                let augmentedImage = UIImage(bitmap: augmented, width: w, height: h)!
+                print(augmentedImage)
+            }
         }
 
     }
