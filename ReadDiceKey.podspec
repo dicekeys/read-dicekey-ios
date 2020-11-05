@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/dicekeys/read-dicekey-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'Copyright', :file => 'LICENSE.md' }
+  s.license          = { :type => 'Copyright DiceKeys, LLC', :file => 'LICENSE.md' }
   s.author           = { 'Nikita Titov' => 'nmtitov@ya.ru' }
   s.source           = { :git => 'https://github.com/dicekeys/read-dicekey-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
