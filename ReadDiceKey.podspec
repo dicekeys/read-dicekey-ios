@@ -18,7 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  DiceKeys are backup security keys that prevent lockouts and make it easier to adopt stronger online security.
+
+  Reliable and trustworthy by design
+  Readable by your devices and your own eyes
+
+  DiceKeys can be read by most any phone, tablet, or computer.
+  Or, you can use your own eyes to read each face by its:
+  letter, which identifies the die
+  digit, which identifies the face of the die, and
+  orientation (rotation) of the face relative to the box
+
+  The lines and dots are error-correction codes. Each line contains a redundant encoding of the letter and digit on the face of the die. Our algorithms use them to orient and double check the letter and digit.
+  Open and tangible
+  Our open software for reading DiceKeys and performing cryptographic operations with them is available for you to inspect, compile, modify, and use for eternity.
+  In contrast to hardware designed to resist inspection, you can inspect every aspect of DiceKeys with your own eyes. Your security is literally in your own hands.
+  Designed to last a human lifetime
+  Most products are designed to be replaced, and many technology products are designed to be replaced dozens of times over a human lifetime. In contrast, one need only open up a decades-old game to observe the longevity of dice.
+  Future-proof
+  In 50 years, our devices may no longer support Bluetooth or USB-C, but we will still have eyes and our devices will still have cameras. Even if the company behind DiceKeys is long gone, our license gives you access to use our software for eternity, and allows the open-source community to maintain and improve it.
                        DESC
 
   s.homepage         = 'https://github.com/dicekeys/read-dicekey-ios'
