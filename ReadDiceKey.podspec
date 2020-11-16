@@ -68,4 +68,5 @@ Pod::Spec.new do |s|
   s.dependency 'Djinni', '~> 4.4.1'
   
   s.static_framework = true
+  s.prepare_command = 'zsh ./run_djinni.sh'
 end
