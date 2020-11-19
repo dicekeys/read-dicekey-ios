@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/dicekeys/read-dicekey-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '14.1'
+  s.ios.deployment_target = '14.0'
 
   s.source_files =
       'ReadDiceKey/Classes/**/*',
