@@ -5,7 +5,11 @@
 //  Created by Nikita Titov on 29.10.2020.
 //
 
+import CoreGraphics
+
+#if os(iOS)
 import UIKit
+
 
 public extension UIImage {
     convenience init?(bitmap: Data, width: Int, height: Int) {
@@ -19,6 +23,7 @@ public extension UIImage {
         cgImage?.bitmap
     }
 }
+#endif
 
 public extension CGImage {
     var bitmap: Data? {
