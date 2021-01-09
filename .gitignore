@@ -219,3 +219,4 @@ ios/
 deps/ios/
 
 Pods/
+Podfile.lock

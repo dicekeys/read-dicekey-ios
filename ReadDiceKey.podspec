@@ -47,6 +47,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.0'
+  s.osx.deployment_target  = '11.0'
 
   s.source_files =
       'ReadDiceKey/Classes/**/*',
@@ -64,7 +65,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.dependency "OpenCV2", '~> 4.3.0'
+  s.dependency 'OpenCVXF'
   s.dependency 'Djinni', '~> 4.4.1'
   
   s.static_framework = true
