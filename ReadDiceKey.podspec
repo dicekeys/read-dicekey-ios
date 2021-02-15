@@ -55,19 +55,9 @@ Pod::Spec.new do |s|
       'deps/read-dicekey/lib-dicekey/**/*.{h,hpp,cpp}',
       'deps/read-dicekey/lib-read-dicekey/**/*.{h,hpp,cpp}'
 
-  
-  # s.resource_bundles = {
-  #   'ReadDiceKey' => ['ReadDiceKey/Assets/*.png']
-  # }
-
-  s.public_header_files = 'ReadDiceKey/Classes/generated_src/objc/DKImageProcessor.h'
-
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'ReadDiceKey/Classes/DKImageProcessor.h'
 
   s.dependency 'OpenCVXF'
-  s.dependency 'Djinni', '~> 4.4.1'
   
   s.static_framework = true
-  s.prepare_command = 'zsh ./run_djinni.sh'
 end

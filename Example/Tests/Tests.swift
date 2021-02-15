@@ -14,15 +14,29 @@ class Tests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        let image = UIImage(named: "test", in: Bundle(for: type(of: self)), compatibleWith: nil)!
+        XCTAssertNotNil(image)
+        
+        let w = image.cgImage!.width
+        let h = image.cgImage!.height
+
+        let bitmap = image.bitmap!
+
+        let wrapper = DKImageProcessor.create()!
+        XCTAssertNotNil(wrapper)
+        
+        let process = wrapper.process(bitmap, width: Int32(w), height: Int32(h))
+        XCTAssertFalse(process)
+        
+        let overladData = wrapper.overlay(bitmap, width: Int32(w), height: Int32(h))
+        XCTAssertNotNil(overladData)
+        
+        let augmentedData = wrapper.augmented(bitmap, width: Int32(w), height: Int32(h))
+        XCTAssertNotNil(augmentedData)
+        
+        let json = wrapper.json()
+        XCTAssertNotNil(json)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
     
 }
