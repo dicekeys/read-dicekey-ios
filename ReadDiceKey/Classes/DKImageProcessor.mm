@@ -7,24 +7,22 @@
 
 #import <Foundation/Foundation.h>
 #import "DKImageProcessor.h"
-#import "DKUtils.h"
-#include "ImageProcessor.hpp"
-#include "ImageProcessorImpl.hpp"
+#include "read-dicekey.hpp"
 
 @interface DKImageProcessor ()
-- (instancetype)initWithImageProcessorObject:(dicekeys::ImageProcessor *)imageProcessor;
+- (instancetype)initWithImageProcessorObject:(DiceKeyImageProcessor *)imageProcessor;
 @end
 
 @implementation DKImageProcessor {
-    dicekeys::ImageProcessor* _imageProcessor;
+    DiceKeyImageProcessor* _imageProcessor;
 }
 
 + (nullable DKImageProcessor *)create
 {
-    return [[DKImageProcessor alloc] initWithImageProcessorObject:new dicekeys::ImageProcessorImpl()];
+    return [[DKImageProcessor alloc] initWithImageProcessorObject:new DiceKeyImageProcessor()];
 }
 
-- (instancetype)initWithImageProcessorObject:(dicekeys::ImageProcessor *)imageProcessor {
+- (instancetype)initWithImageProcessorObject:(DiceKeyImageProcessor *)imageProcessor {
     self = [self init];
     if (self != NULL) {
         _imageProcessor = imageProcessor;
@@ -36,26 +34,32 @@
           width:(int32_t)width
          height:(int32_t)height
 {
-    return _imageProcessor->process(dataToUint8Vector(image), width, height);
+    return _imageProcessor->processRGBAImage(width, height, (const uint32_t *)image.bytes);
 }
 
 - (nonnull NSData *)overlay:(nonnull NSData *)image
                       width:(int32_t)width
                      height:(int32_t)height
 {
-    return uint8VectorToData(_imageProcessor->overlay(dataToUint8Vector(image), width, height));
+    _imageProcessor->processRGBAImage(width, height, (const uint32_t *)image.bytes);
+    NSUInteger size = image.length / sizeof(uint32_t);
+    NSData* overlay = [NSData dataWithBytes:new uint32_t[size] length:image.length];
+    _imageProcessor->renderAugmentationOverlay(width, height, (uint32_t *)overlay.bytes);
+    return overlay;
 }
 
 - (nonnull NSData *)augmented:(nonnull NSData *)image
                         width:(int32_t)width
                        height:(int32_t)height
 {
-    return uint8VectorToData(_imageProcessor->augmented(dataToUint8Vector(image), width, height));
+    _imageProcessor->processRGBAImage(width, height, (const uint32_t *)image.bytes);
+    _imageProcessor->augmentRGBAImage(width, height, (uint32_t *)image.bytes);
+    return image;
 }
 
 - (nonnull NSString *)json
 {
-    return [NSString stringWithCString:_imageProcessor->json().c_str() encoding:NSUTF8StringEncoding];
+    return [NSString stringWithCString:_imageProcessor->jsonDiceKeyRead().c_str() encoding:NSUTF8StringEncoding];
 }
 
 - (BOOL)isFinished
@@ -67,7 +71,7 @@
                        height:(int32_t)height
                         bytes:(nonnull NSData *)bytes
 {
-    return uint8VectorToData(_imageProcessor->faceImage(faceIndex, height, dataToUint8Vector(bytes)));
+    return [NSData data];
 }
 
 -(void)dealloc {
